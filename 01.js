@@ -8,3 +8,6 @@
 */
 
 var a=9;
+
+//Declare String Variables
+var myFirstName='MyName', myLastName='MyLastName';
