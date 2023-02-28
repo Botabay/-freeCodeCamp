@@ -39,8 +39,11 @@
 // let catName = "Oliver";
 // let catSound = "Meow!";
 
-//using let and const
-const FCC = "freeCodeCamp"; // Change this line
-let fact = "is cool!"; // Change this line
-fact = "is awesome!";
-console.log(FCC, fact); // Change this line
+// //using let and const
+// const FCC = "freeCodeCamp"; // Change this line
+// let fact = "is cool!"; // Change this line
+// fact = "is awesome!";
+// console.log(FCC, fact); // Change this line
+
+//Add Two Numbers with JavaScript
+const sum = 10 + 10;
