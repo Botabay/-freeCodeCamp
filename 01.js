@@ -24,13 +24,17 @@
 // b = b + 5;
 // c = c + " String!";
 
-//camalCase
-// Variable declarations
-var studlyCapVar;
-var properCamelCase;
-var titleCaseOver;
+// //camalCase
+// // Variable declarations
+// var studlyCapVar;
+// var properCamelCase;
+// var titleCaseOver;
 
-// Variable assignments
-studlyCapVar = 10;
-properCamelCase = "A String";
-titleCaseOver = 9000;
+// // Variable assignments
+// studlyCapVar = 10;
+// properCamelCase = "A String";
+// titleCaseOver = 9000;
+
+//replaced var by let
+let catName = "Oliver";
+let catSound = "Meow!";
