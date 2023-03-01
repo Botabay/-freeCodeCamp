@@ -57,7 +57,12 @@
 // //Divide One Number by Another with JavaScript
 // const quotient = 66 / 33;
 
-//Increment a Number with JavaScript
+// //Increment a Number with JavaScript
+// let myVar = 87;
+// // Only change code below this line
+// myVar++;
+
+//decrement a Number with JavaScript
 let myVar = 87;
 // Only change code below this line
-myVar++;
+myVar--;
