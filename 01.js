@@ -62,7 +62,11 @@
 // // Only change code below this line
 // myVar++;
 
-//decrement a Number with JavaScript
-let myVar = 87;
+// //decrement a Number with JavaScript
+// let myVar = 87;
+// // Only change code below this line
+// myVar--;
+
+const ourDecimal = 5.7;
 // Only change code below this line
-myVar--;
+let myDecimal=5.7;
