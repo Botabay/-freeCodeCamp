@@ -116,5 +116,12 @@
 //Escaping Literal Quotes in Strings
 //const myStr = "I am a \"double quoted\" string inside \"double quotes\"."; // Change this line
 
-//Quoting Strings with Single Quotes
-const myStr = '<a href="http://www.example.com" target="_blank">Link</a>';
+// //Quoting Strings with Single Quotes
+// const myStr = '<a href="http://www.example.com" target="_blank">Link</a>';
+
+//using length of string
+// Setup
+let lastNameLength = 0;
+const lastName = "Lovelace";
+// Only change code below this line
+lastNameLength = lastName.length;
