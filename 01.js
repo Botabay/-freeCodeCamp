@@ -126,6 +126,11 @@
 // // Only change code below this line
 // lastNameLength = lastName.length;
 
-//created function of sum
-function functionWithArgs(a,b){console.log(a+b)}
-functionWithArgs(1,2)
+// //created function of sum
+// function functionWithArgs(a,b){console.log(a+b)}
+// functionWithArgs(1,2)
+
+// created function of multiply
+function timesFive(x){
+   return x*5;
+}
