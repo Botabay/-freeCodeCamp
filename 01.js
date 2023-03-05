@@ -119,9 +119,13 @@
 // //Quoting Strings with Single Quotes
 // const myStr = '<a href="http://www.example.com" target="_blank">Link</a>';
 
-//using length of string
-// Setup
-let lastNameLength = 0;
-const lastName = "Lovelace";
-// Only change code below this line
-lastNameLength = lastName.length;
+// //using length of string
+// // Setup
+// let lastNameLength = 0;
+// const lastName = "Lovelace";
+// // Only change code below this line
+// lastNameLength = lastName.length;
+
+//created function of sum
+function functionWithArgs(a,b){console.log(a+b)}
+functionWithArgs(1,2)
