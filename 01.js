@@ -187,15 +187,26 @@
 //  } 
 //  abTest(2,2);
 
-//Counting Cards
-let count = 0;
-function cc(card) {
+// //Counting Cards
+// let count = 0;
+// function cc(card) {
+//    // Only change code below this line
+//    card = +card;
+//    if (card < 7){count++; return count > 0 ?  count + " Bet" : count + ' Hold';};
+//    if (card < 10){return count>0 ? count+" Bet":count+' Hold';};
+//    count--;
+//    return count > 0 ? count + " Bet": count+' Hold';
+//    // Only change code above this line
+//  } 
+//  cc(2); cc(3); cc(7); cc('K'); cc('A');
+
+//Build JavaScript Objects
+const myDog = {
    // Only change code below this line
-   card = +card;
-   if (card < 7){count++; return count > 0 ?  count + " Bet" : count + ' Hold';};
-   if (card < 10){return count>0 ? count+" Bet":count+' Hold';};
-   count--;
-   return count > 0 ? count + " Bet": count+' Hold';
+   name:'Fedoth',
+   legs:4,
+   tails:1,
+   friends:['Bother']
+ 
    // Only change code above this line
- } 
- cc(2); cc(3); cc(7); cc('K'); cc('A');
+ };
