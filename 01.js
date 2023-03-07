@@ -177,15 +177,25 @@
 //  }
 //  isLess(10, 15);
 
-//Return Early Pattern for Functions
-// Setup
-function abTest(a, b) {
+// //Return Early Pattern for Functions
+// // Setup
+// function abTest(a, b) {
+//    // Only change code below this line
+//    if (a<0 || b<0) return undefined; 
+//    // Only change code above this line 
+//    return Math.round(Math.pow(Math.sqrt(a) + Math.sqrt(b), 2));
+//  } 
+//  abTest(2,2);
+
+//Counting Cards
+let count = 0;
+function cc(card) {
    // Only change code below this line
-   if (a<0 || b<0) return undefined;
- 
- 
+   card = +card;
+   if (card < 7){count++; return count > 0 ?  count + " Bet" : count + ' Hold';};
+   if (card < 10){return count>0 ? count+" Bet":count+' Hold';};
+   count--;
+   return count > 0 ? count + " Bet": count+' Hold';
    // Only change code above this line
- 
-   return Math.round(Math.pow(Math.sqrt(a) + Math.sqrt(b), 2));
  } 
- abTest(2,2);
+ cc(2); cc(3); cc(7); cc('K'); cc('A');
