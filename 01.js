@@ -200,13 +200,23 @@
 //  } 
 //  cc(2); cc(3); cc(7); cc('K'); cc('A');
 
-//Build JavaScript Objects
-const myDog = {
-   // Only change code below this line
-   name:'Fedoth',
-   legs:4,
-   tails:1,
-   friends:['Bother']
+// //Build JavaScript Objects
+// const myDog = {
+//    // Only change code below this line
+//    name:'Fedoth',
+//    legs:4,
+//    tails:1,
+//    friends:['Bother']
  
-   // Only change code above this line
+//    // Only change code above this line
+//  };
+
+//Add New Properties to a JavaScript Object
+const myDog = {
+   "name": "Happy Coder",
+   "legs": 4,
+   "tails": 1,
+   "friends": ["freeCodeCamp Campers"]
  };
+ myDog.bark="woof"
+ 
