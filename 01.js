@@ -220,15 +220,33 @@
 //  };
 //  myDog.bark="woof"
  
-//Delete Properties from a JavaScript Object
-// Setup
-const myDog = {
-   "name": "Happy Coder",
-   "legs": 4,
-   "tails": 1,
-   "friends": ["freeCodeCamp Campers"],
-   "bark": "woof"
- }; 
- // Only change code below this line
- delete myDog.tails;
+// //Delete Properties from a JavaScript Object
+// // Setup
+// const myDog = {
+//    "name": "Happy Coder",
+//    "legs": 4,
+//    "tails": 1,
+//    "friends": ["freeCodeCamp Campers"],
+//    "bark": "woof"
+//  }; 
+//  // Only change code below this line
+//  delete myDog.tails;
  
+//Using Objects for Lookups
+ // Setup
+function phoneticLookup(val) {
+   let result = ""; 
+   // Only change code below this line
+   let lookup= {
+     "alpha": "Adams",
+       "bravo":"Boston",
+       "charlie":"Chicago",
+        "delta": "Denver",
+        "echo":"Easy",
+        "foxtrot":"Frank",
+   }
+   result=lookup[val];
+   // Only change code above this line
+   return result;
+ } 
+ phoneticLookup("charlie");
