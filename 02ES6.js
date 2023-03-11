@@ -47,3 +47,9 @@ console.log(myConcat([1, 2], [3, 4, 5]));
 // Only change code below this line
 const increment = (number=1, value=1) => number + value;
 // Only change code above this line
+
+//Use the Spread Operator to Evaluate Arrays In-Place
+const arr1 = ['JAN', 'FEB', 'MAR', 'APR', 'MAY'];
+let arr2;
+arr2 = [...arr1];  // Change this line
+console.log(arr2);
