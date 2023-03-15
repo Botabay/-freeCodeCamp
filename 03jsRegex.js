@@ -12,3 +12,8 @@ let result = extractStr.match(codingRegex); // Change this line
 let twinkleStar = "Twinkle, twinkle, little star";
 let starRegex = /Twinkle/ig; // Change this line
 let result = twinkleStar.match(starRegex); // Change this line
+
+//Match Ending String Patterns
+let caboose = "The last car on a train is the caboose";
+let lastRegex = /caboose$/; // Change this line
+let result = lastRegex.test(caboose);
